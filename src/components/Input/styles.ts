@@ -7,6 +7,7 @@ export const StyledInput = styled.input`
   border: 1px solid ${({ theme }) => theme.colors.primary};
   border-radius: 5px;
   outline: none;
+  margin: 20px auto;
 
   &:focus {
     border-color: ${({ theme }) => theme.colors.secondary};
